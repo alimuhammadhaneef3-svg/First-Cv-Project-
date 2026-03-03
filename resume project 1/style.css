@@ -1,0 +1,154 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: "Stack Sans Headline", sans-serif;
+    font-weight: 800;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.resume {
+display:flex;
+max-width: 1200px;
+margin: 30px auto;
+background-color:rgb(59, 56, 56);
+}
+.left{
+    width: 32%;
+    background-color: #0000015a;
+    padding: 40px 30px;
+    color: #f2f2f2;
+}
+.profile{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.profile img{
+    width : 180px;
+    border-radius: 50%;
+}
+.section{
+    margin-bottom: 40px;
+}
+.section h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(152, 133, 133);
+    margin: 10 0 20px 0;
+}
+.section p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.section ul{
+    list-style-type: disc;
+    padding-left: 20px;
+    
+}
+.section ul li{
+    margin-bottom: 8 px;
+    font-size: 18px;
+}
+/* Right Side */
+.right{
+    width: 68%;
+    padding: 5%;
+    background-color:#31311e;
+    
+}
+.header h1{
+    font-size: 40px;
+    color:rgb(232, 55, 55);
+
+}
+.header h2 {
+    font-size: 26px;
+    color:rgb(208, 195, 195);
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+
+}
+.header p{
+    font-size: 18px;
+    color:rgb(185, 181, 181);
+    margin-bottom: 30px;
+    line-height: 1.6;
+
+}
+.content_section h3 {
+font-size: 30px;
+font-weight: 600;
+color: #ecece6;
+margin-bottom: 10px
+;
+}
+.underline{
+    width: 100%;
+    height: 1.2px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.timeline{
+    position: relative;
+    border-left: 2px solid #ecece6;
+   padding-left: 30px;
+}
+.timeline-item{
+position: relative;
+margin-bottom: 30px;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(206, 198, 211);
+    border-radius: 50%;
+    position:absolute;
+    left: -25px;
+    top: 2px;
+}
+.timeline-content h4{
+    color: rgb(185, 149, 160);
+    margin-bottom: 10px;
+    font-size: 19px;
+    border-radius: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 3px;
+}
+.timeline-content strong{
+    font-size: 16px;
+    color:rgb(246, 244, 242);
+    font-family:sans-serif;
+   margin-bottom: auto;
+    
+}
+.timeline-content ul li{
+    color: brown;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: inherit;
+}
+.timeline-content p{
+    color: brown;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: inherit;
+   
+}
+.references{
+    color: blue;
+    flex: content;
+    
+}
